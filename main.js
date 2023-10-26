@@ -1,83 +1,34 @@
-// const url =
-//   "https://newsdata.io/api/1/news?apikey=pub_3181265cc65690e11e8b7a99567b48e2fea3d";
+const elTheme = document.getElementById("theme");
+const elBody = document.getElementById("body");
+const headerNav = document.querySelector(".header__nav");
+const headerNavList = document.querySelector(".header__nav-list");
+const menuBtn = document.querySelector(".header__menu");
+const closeBtn = document.querySelector(".header__close");
+const registerBtn = document.querySelector(".header__btn-registr");
 
-// async function getData(url) {
-//   try {
-//     const response = await fetch(url);
-//     const result = await response.json();
-//     console.log(result.results);
-//   } catch (error) {
-//     console.error(error);
+// elTheme.addEventListener("change", function () {
+//   if (elTheme.checked === true) {
+//     elBody.className = "dark";
+//   } else {
+//     elBody.className = "";
 //   }
-// }
-
-// getData(url);
-
-// const card = document.querySelector(".main__business-blog");
-// const data = getData(url);
-
-// function render(data) {
-//   data.forEach((element) => {
-//     const div = document.createElement("div");
-
-//     const img = document.createElement("img");
-//     img.src = element.image_url;
-
-//     div.appendChild(img);
-
-//     card.appendChild(div);
-//   });
-// }
-
-// render();
-
-// const list = document.querySelector(".main__business-list");
-
-// async function renderUsers() {
-//   const users = await getData(url);
-//   renderData(users);
-// }
-// renderUsers();
-
-// function renderData(users) {
-//   users.forEach((user) => {
-//     const myFragment = new DocumentFragment();
-
-//     const card = document.createElement("li");
-//     card.classList.add("main__business__list-item");
-
-//     const images = document.createElement("img");
-//     images.src = user.image_url;
-
-//     const div = document.createElement("div");
-//     const title = document.createElement("h3");
-//     // userName.textContent = user.login ? user.login : user.owner.login;
-
-//     myFragment.appendChild(images);
-
-//     card.appendChild(myFragment);
-//     list.appendChild(card);
-//   });
-// }
-
-// renderData();
-
-// const searchForm = document.querySelector(".main__blog-form");
-// const searchInput = document.querySelector(".main__blog-search");
-
-// async function searchUsers(searchValue) {
-//   const user = await getData(
-//     `https://api.github.com/search/repositories?q=${searchValue}`
-//   );
-//   list.innerHTML = "";
-//   renderData(user.items);
-// }
-
-// searchForm.addEventListener("click", () => {
-//   searchUsers(searchInput.value.trim());
 // });
 
-// export default renderData;
+menuBtn.addEventListener("click", () => {
+  headerNav.classList.add("visual");
+  headerNavList.classList.add("visual");
+  menuBtn.classList.add("hidden");
+  closeBtn.classList.add("visual");
+  registerBtn.classList.add("visual");
+});
+
+closeBtn.addEventListener("click", () => {
+  headerNav.classList.add("hidden");
+  headerNavList.classList.add("hidden");
+  menuBtn.classList.add("visual");
+  closeBtn.classList.add("hidden");
+  registerBtn.classList.add("hidden");
+});
 
 // import renderList from "./js/register.js";
 // import renderData from "./js/register.js";

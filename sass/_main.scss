@@ -72,6 +72,13 @@
     line-height: 24px;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  &_btnForMore:hover {
+    background: #664d08;
+    color: white;
+    transition: all 0.3s ease;
   }
 
   //   Popular Blogs===========================
@@ -177,12 +184,28 @@
     height: 221.072px;
     border: 1px solid $Medium-grey;
     padding-left: 32px;
+    transition: all 0.3s ease;
+  }
+
+  &__category__list-item:hover {
+    background-color: #ffd050;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  &__category-div {
+    margin-top: 15px;
+    width: 65px;
+    height: 65px;
+    background-color: $white;
+    border-radius: 15px;
   }
 
   &__category__list-img {
-    padding: 31px 0 15px 0;
-    width: 85px;
-    height: 85px;
+    padding: 15px 0 15px 0;
+    width: 65px;
+    height: 65px;
   }
 
   &__category__list-title {
@@ -640,6 +663,23 @@
 
     &__hr {
       width: 324px;
+    }
+  }
+}
+
+// Category Page Responsive====================
+@media only screen and (max-width: 1024px) {
+  .main {
+    &__popularBlog-list {
+      row-gap: 25px;
+    }
+
+    &__category-list {
+      row-gap: 18px;
+    }
+
+    &__hr {
+      width: 924px;
     }
   }
 }
