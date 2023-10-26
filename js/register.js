@@ -94,5 +94,3 @@ $elForm.addEventListener("submit", (e) => {
 });
 
 renderList();
-
-export default renderList;

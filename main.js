@@ -6,14 +6,6 @@ const menuBtn = document.querySelector(".header__menu");
 const closeBtn = document.querySelector(".header__close");
 const registerBtn = document.querySelector(".header__btn-registr");
 
-// elTheme.addEventListener("change", function () {
-//   if (elTheme.checked === true) {
-//     elBody.className = "dark";
-//   } else {
-//     elBody.className = "";
-//   }
-// });
-
 menuBtn.addEventListener("click", () => {
   headerNav.classList.add("visual");
   headerNavList.classList.add("visual");
@@ -29,8 +21,3 @@ closeBtn.addEventListener("click", () => {
   closeBtn.classList.add("hidden");
   registerBtn.classList.add("hidden");
 });
-
-// import renderList from "./js/register.js";
-// import renderData from "./js/register.js";
-// renderList();
-// renderData();
