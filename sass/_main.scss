@@ -1,0 +1,645 @@
+.main {
+  &__section {
+    background: url(../img/main-bg.jpg) no-repeat calc(50%);
+    height: 720px;
+    margin-bottom: 94px;
+  }
+
+  &__content {
+    padding-top: 128px;
+  }
+
+  &__micro-title {
+    color: $white;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    width: 803px;
+    color: $white;
+    font-family: Sen;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+  }
+
+  &__time {
+    color: $white;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+
+  &__time-autor {
+    color: #ffd050;
+  }
+
+  &__text {
+    width: 599px;
+    color: $white;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 48px;
+  }
+
+  &_btnForMore {
+    display: inline-flex;
+    padding: 16px 48px;
+    align-items: flex-start;
+    gap: 12px;
+    background: #ffd050;
+    color: $black;
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+  }
+
+  //   Popular Blogs===========================
+
+  &__popularBlog-title {
+    color: #000;
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 64px;
+  }
+
+  &__popularBlog-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 64px;
+  }
+
+  &__popularBlog__list-item {
+    width: 355px;
+  }
+
+  &__popularBlog__list-img {
+    width: 375px;
+    height: 288px;
+    margin-bottom: 32px;
+  }
+
+  &__popularBlog-time {
+    color: $Dark-Grey;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+
+  &__popularBlog-autor {
+    color: $Purple;
+  }
+
+  &__popularBlog__list-title {
+    width: 345px;
+    color: $black;
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+  }
+
+  &__popularBlog__list-text {
+    width: 355px;
+    color: $black;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+  }
+
+  &__hr {
+    width: 1180px;
+    height: 1px;
+    opacity: 0.3;
+    background: #6d6e76;
+    margin-bottom: 69px;
+  }
+
+  //   Category==================================
+
+  &__category-title {
+    text-align: center;
+    color: $black;
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 70px;
+  }
+
+  &__category-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 18px;
+    margin-bottom: 73px;
+  }
+
+  &__category__list-item {
+    width: 266px;
+    height: 221.072px;
+    border: 1px solid $Medium-grey;
+    padding-left: 32px;
+  }
+
+  &__category__list-img {
+    padding: 31px 0 15px 0;
+    width: 85px;
+    height: 85px;
+  }
+
+  &__category__list-title {
+    color: $black;
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    margin-bottom: 3px;
+  }
+
+  &__category__list-text {
+    width: 232px;
+    height: 54.298px;
+    color: $Medium-grey;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+
+// Category page===============
+
+.main {
+  &__categorys-section {
+    width: 100%;
+    height: 348px;
+    background: $Lavender;
+    margin-bottom: 57px;
+  }
+
+  &__categorys-content {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__all-business,
+  &__link {
+    padding-top: 20px;
+    text-align: left;
+    color: $black;
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+
+  &__link {
+    padding-top: 10px;
+    margin-bottom: 100px;
+  }
+
+  &__categorys-title {
+    color: $black;
+    font-family: Sen;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    padding-top: 10px;
+    margin-bottom: 16px;
+  }
+
+  &__categorys-text {
+    width: 515px;
+    color: #6d6e76;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 300px;
+    margin-bottom: 32px;
+  }
+
+  &__categorys-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 5px;
+    margin-left: 470px;
+  }
+
+  &__links-style {
+    color: var(--Black, #232536);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  &__blog-businessInfo {
+    margin-bottom: 91px;
+  }
+
+  &__form {
+    padding-top: 20px;
+  }
+
+  &__search-input {
+    margin-top: 20px;
+  }
+
+  &__blog-search {
+    width: 1200px;
+    padding: 24px;
+    color: $black;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+    margin-bottom: 27px;
+  }
+
+  &__search-btn,
+  &__btn {
+    position: absolute;
+    top: 500px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__btn {
+    top: 114px;
+    right: 70px;
+  }
+
+  &__business-list {
+    display: grid;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+
+  &__business__list-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    column-gap: 48px;
+    row-gap: 10px;
+  }
+
+  &__business-category {
+    color: $Purple;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__buiness-img {
+    width: 387px;
+    height: 272px;
+  }
+
+  &__business-title {
+    width: 629.581px;
+    color: $black;
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+  }
+
+  &__business-publish {
+    color: $Purple;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 64px;
+    line-height: 28px;
+  }
+
+  &__business-text {
+    width: 609.581px;
+    color: $Medium-grey;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+
+// Register page====================
+
+.main {
+  &__register-content {
+    margin: 0 auto;
+  }
+
+  &__register-title {
+    padding: 69px 0;
+    color: #232536;
+    text-align: center;
+    font-family: Sen;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+  &__register-form {
+    display: grid;
+    flex-direction: row;
+    width: 768px;
+    gap: 15px;
+    margin-left: 200px;
+    margin-bottom: 74px;
+  }
+
+  &__inp {
+    width: 728px;
+    padding: 24px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+    overflow: hidden;
+    color: $black;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  &__register-btn {
+    width: 728px;
+    height: 64px;
+    background: #ffd050;
+    color: $black;
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    border: none;
+    margin-bottom: 158px;
+    cursor: pointer;
+  }
+}
+
+// Blog page ===========================
+
+.main {
+  &__blog-content {
+    padding-top: 56px;
+    margin-bottom: 63px;
+    margin-bottom: 128px;
+  }
+
+  &__blog-info {
+    padding-top: 68px;
+    margin-left: 200px;
+  }
+
+  &__blog-autor {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 17px;
+    margin-bottom: 24px;
+  }
+
+  &__blog__autor-name {
+    color: $Purple;
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+
+  &__blog-post {
+    color: $Medium-grey;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  &__blog__info-title {
+    width: 843px;
+    color: $black;
+    font-family: Sen;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 34px;
+  }
+
+  &__blog__info-startup {
+    color: $black;
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 62px;
+  }
+
+  &__blog__info-text {
+    width: 837px;
+    color: $Medium-grey;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+}
+
+// About Us page=========================
+
+.main {
+  &__about-content {
+    background: $Lavender;
+    height: 441px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__about-info {
+    padding-top: 83px;
+  }
+
+  &__about-mission {
+    color: $black;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  &__about-title {
+    width: 481px;
+    color: $black;
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+  }
+
+  &__about-text {
+    width: 516px;
+    color: $Medium-grey;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+
+// Resposives====================================
+
+@media only screen and (max-width: 1024px) {
+  .main {
+    &__popularBlog-list {
+      row-gap: 25px;
+    }
+
+    &__category-list {
+      row-gap: 18px;
+    }
+
+    &__hr {
+      width: 924px;
+    }
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .main {
+    &__title {
+      width: 703px;
+    }
+
+    &__popularBlog-title {
+      text-align: center;
+    }
+
+    &__hr {
+      width: 724px;
+    }
+  }
+}
+
+@media only screen and (max-width: 728px) {
+  .main {
+    &__title {
+      width: 403px;
+    }
+
+    &__text {
+      width: 403px;
+    }
+
+    &__hr {
+      width: 624px;
+    }
+  }
+}
+
+@media only screen and (max-width: 466px) {
+  .main {
+    &__title {
+      width: 303px;
+      font-size: 40px;
+      line-height: 38px;
+    }
+
+    &__text {
+      width: 303px;
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    &__hr {
+      width: 324px;
+    }
+  }
+}

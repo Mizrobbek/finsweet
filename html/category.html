@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__content">
+        <a class="header__logo" href="../index.html">
+          <img src="../img/Logo.svg" alt="logo" />
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav__list-item">
+              <a class="header__nav__list-link" href="../index.html">Home</a>
+            </li>
+            <li class="header__nav__list-item">
+              <a class="header__nav__list-link" href="../html/blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="header__nav__list-item">
+              <a class="header__nav__list-link" href="#">About Us</a>
+            </li>
+          </ul>
+          <button class="header__btn-registr">
+            <a class="header__link-registr" href="registr.html">Register</a>
+          </button>
+        </nav>
+
+        <div class="header__menu">
+          <button class="header__menuBtn">
+            <img src="../img/menu.svg" alt="menu icon" />
+          </button>
+          <button class="header__arrowBtn">
+            <img src="../img/arrow.png" alt="Arrow icon" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__categorys-section">
+        <div class="container main__categorys-content">
+          <a href="../html/all-post.html" class="main__all-business"
+            >All posts</a
+          >
+          <h2 class="main__categorys-title">Business</h2>
+          <p class="main__categorys-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore.
+          </p>
+          <div class="main__categorys-links">
+            <a
+              class="main__categorys-blog main__links-style"
+              href="../index.html"
+              >Blog</a
+            >
+            <p class="main__categorys__link-text main__links-style">></p>
+            <a class="main__categorys-business main__links-style" href="#"
+              >Business</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="main__blog-businessInfo">
+          <form id="search-form">
+            <input
+              type="text"
+              id="search-input"
+              class="main__blog-search"
+              placeholder="Enter a search query"
+            />
+            <button class="main__search-btn" type="submit">
+              <img src="../img/search.svg" alt="Search icon" />
+            </button>
+          </form>
+
+          <div id="news-container"></div>
+
+          <ul class="pagination"></ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__section">
+        <div class="container footer__content">
+          <div>
+            <address class="footer__address">
+              Finstreet 118 2561 Fintown
+            </address>
+            <a class="footer__mail" href="mailto:Hello@finsweet.com"
+              >Hello@finsweet.com</a
+            >
+            <a class="footer__number" href="tel: 020 7993 2905"
+              >020 7993 2905</a
+            >
+          </div>
+
+          <div>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="https://facebook.com">
+                  <img
+                    class="footer__social-img"
+                    src="../img/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="https://twitter.com">
+                  <img
+                    class="footer__social-img"
+                    src="../img/twitter.svg"
+                    alt="twitter"
+                  />
+                </a>
+              </li>
+
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="https://instagram.com">
+                  <img
+                    class="footer__social-img"
+                    src="../img/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="https://lenkidin.com">
+                  <img
+                    class="footer__social-img"
+                    src="../img/linkedin.svg"
+                    alt="linkedin"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="../js/category.js"></script>
+  </body>
+</html>
